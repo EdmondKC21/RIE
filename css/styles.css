@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'open_regular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#LatoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_bold';
+    src: url('../fonts/opensans-bold.eot');
+    src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold.woff') format('woff'),
+         url('../fonts/opensans-bold.ttf') format('truetype'),
+         url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_semibold';
+    src: url('../fonts/opensans-semibold.eot');
+    src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold.woff') format('woff'),
+         url('../fonts/opensans-semibold.ttf') format('truetype'),
+         url('../fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background: #B3E5FC;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #757575;
+    background-color: #FFCA28;
+}
+
+header{
+    background-color: #FFC107;
+}
+
+.container{
+    max-width: 1130px;
+    background-color: #FFC107;
+}
+.texto{
+    font-family: "open_regular", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+}
