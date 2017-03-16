@@ -42,7 +42,6 @@ body{
     margin: 0px;
 }
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -62,7 +61,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     color: #757575;
     background-color: #FFCA28;
@@ -70,6 +68,7 @@ li a:hover {
 
 header{
     background-color: #FFC107;
+    z-index: 100;
 }
 
 .container{
@@ -79,4 +78,8 @@ header{
 .texto{
     font-family: "open_regular", Helvetica, Arial, sans-serif;
     font-size: 20pt;
+}
+.infiniteCarousel {
+    box-shadow: 0px 3px 3px #333;
+    border: 5px solid #333;
 }
