@@ -9,8 +9,23 @@
     font-style: normal;
 
 }
-
-
+div
+{
+    display:block;
+}
+.contenedor
+{
+  background-color: #2E9AFE;
+  position:relative;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 @font-face {
     font-family: 'open_bold';
     src: url('../fonts/opensans-bold.eot');
