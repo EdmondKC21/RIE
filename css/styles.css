@@ -57,7 +57,7 @@ body{
     margin: 0px;
 }
 
-ul {
+.ulup {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -68,7 +68,7 @@ li {
     float: left;
 }
 
-li a {
+.liup a {
     display: block;
     color: black;
     text-align: center;
@@ -76,7 +76,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.liup a:hover {
     color: #757575;
     background-color: #FFCA28;
 }
