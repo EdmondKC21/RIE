@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fundación RIE</title>
+		<link href="img/RIE.png" rel="shortcut icon" type="image/png">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script type="text/javascript" src="functions.js"></script>
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	    <script src="http://notoyontoy.site40.net/Js/jquery.infinitecarousel3.min.js"></script>
+	    <script type="text/javascript" src="http://notoyontoy.site40.net/Js/easing.js"></script>
+  <script>
+     var a= jQuery.noConflict();
+        a(document).ready(function() {
+	        a('#carousel').infiniteCarousel({
+	           imagePath: '',
+	           transitionSpeed:12000,
+	           displayTime: 0,
+	           thumbnailType: 'none',
+	           customClass: 'myCarousel',
+	           easeLeft: 'linear',
+	           easeRight:'linear',
+	           inView: 1,
+	           advance: 1,
+	           autoPilot: true,
+	           displayProgressRing: false,
+	           showControls: false,
+	           prevNextInternal: false
+			});
+	 	});
+	 	$(function(){
+        var stickyHeaderTop = $('#stickyheader').offset().top;
+        	$(window).scroll(function(){
+                if( $(window).scrollTop() > stickyHeaderTop ) {
+                        $('#stickyheader').css({position: 'fixed', top: '0px', width: '100%'});                   
+                } else {
+                        $('#stickyheader').css({position: 'static', top: '0px', width: '100%'});
+                    }
+        	});
+  		});
+	</script>
+	</head>
+	<body>
+		<div id="imagen">
+			<img width="100%" height="200" alt="" src="img/cabecera.jpg" />
+		</div>
+		<header  id="stickyheader">
+			<div>				
+				<ul class="ulup">
+					<li class=liup><a href="#somos" class="texto">¿Quiénes somos?</a></li>
+					<li class=liup><a href="#hacemos"class="texto">¿Qué hacemos?</a></li>
+					<li class=liup><a href="#equinoterapia"class="texto">Equinoterapia</a></li>
+					<li class=liup><a href="#apoyanos"class="texto">Apóyanos</a></li>
+					<li class=liup><a href="#contacto"class="texto">Contacto</a></li>
+				</ul>				
+			</div>
+		</header>
+		<br><br><br>
+  		<br><br>
+		<div class="contenedor">
+		  <h2 class="texto" align="center">¿Qué es la equinoterapia?</h2>
+		  <h3 class="texto"> 
+		  </h3>
+			<ul>
+				<p>El caballo pone a nuestro servicio tres características específicas que forman la base para la utilización de la equitación como terapia:</p>
+				<li><b>La Transmisión de su Calor Corporal.</b> Ayuda a relajar músculos y ligamentos en pacientes con problemas de espasticidad, a nivel psicológico el calor provoca en el paciente una regresión al vientre materno, el contacto directo del paciente con el caballo crea un vínculo afectivo.</li><br>
+				<li><b>La Transmisión de Impulsos Rítmicos.</b> El caballo emite de 90 a 110 impulsos rítmicos por minuto en un ritmo (aire) de paso. Estos impulsos se transmiten al sistema nervioso central provocando reacciones de enderezamiento, equilibrio, fortaleciendo cuello y tronco, asi como la regulación del tono muscular. A nivel psicológico, el movimiento basculante del caballo provoca un efecto mecedora (arrullo) llevando al paciente a una regresión a la etapa oral, generando sentimientos de seguridad y amor.</li><br>
+				<li><b>La Transmisión de un Patrón tridimensional de Locomoción equivalente al patrón fisiológico de la marcha humana.</b> El propósito de este principio es grabar y automatizar el patrón fisiológico de la marcha, asi como restablecer la flexibilidad y elasticidad de los ligamentos pélvicos. Propicia un balance dinámico del tronco y la cabeza ayudando a su estabilización. A nivel psicológico la sensación de avanzar y caminar genera sensaciones positivas.</li>
+			</ul>
+		<h3 class="texto" align="center">Algunos beneficios de la Equinoterapia </h3>
+			<ul>
+				<li>Gracias a una gran cantidad de publicaciones que sugieren la utilidad de este método como terapia complementaria se han encontrado mejoras en el desarrollo de habilidades motoras, mejora del control del tono muscular, la postura, la conducta y el ajuste emocional en niños con parálisis cerebral, con dificultades sensoriales, y parapléjicos. </li>
+
+			</ul>
+	      </div>
+	</body>
+</html>
